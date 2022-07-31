@@ -1,0 +1,129 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleWebSender\\SampleWebSender.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\SampleShared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\SampleShared.csproj",
+        "projectName": "SampleShared",
+        "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\SampleShared.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleWebSender\\SampleWebSender.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleWebSender\\SampleWebSender.csproj",
+        "projectName": "SampleWebSender",
+        "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleWebSender\\SampleWebSender.csproj",
+        "packagesPath": "C:\\Users\\eduar\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleWebSender\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\eduar\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\SampleShared.csproj": {
+                "projectPath": "C:\\Users\\eduar\\OneDrive\\Documentos\\Coding\\C#\\ServiceBus\\SampleShared\\SampleShared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Azure.ServiceBus": {
+              "target": "Package",
+              "version": "[5.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
